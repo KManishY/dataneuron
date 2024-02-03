@@ -9,7 +9,7 @@ export const Login = ({ setRegistered }) => {
   const [password, setPassword] = useState("");
   const [isLogin, setIsLogin] = useState(false);
 
-  const apiUrl = "http://localhost:8080/user/login";
+  const apiUrl = "https://dataneuron-nuwp.onrender.com/user/login";
 
   const formData = {
     email,
